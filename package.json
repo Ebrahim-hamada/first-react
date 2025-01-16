@@ -2,13 +2,10 @@
   "name": "assignment13-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/",
 
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
