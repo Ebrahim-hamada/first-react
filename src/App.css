@@ -1,0 +1,120 @@
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.section{
+    background-color: #1abc9c;
+}
+.sizing{
+    font-weight: bolder;
+    font-weight: 700;
+}
+.footer{
+    background-color: #2c3e50;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+nav {
+    background-color: #2c3e50;
+}
+.button span{
+    color: white !important;
+}
+.nav-link{
+    width: fit-content;
+}
+.active{
+    background-color: #1abc9c;
+    width: fit-content;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-photo{
+    width: 60%;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}
+.footer2{
+    background-color: #1a252f;
+}
+li{
+    list-style: none;
+}
+.ico-circle{
+    border: 1px solid white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+    background-color: var(--text-white);
+    transition: 0.6s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 14, 13, 0.697);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000000;
+}  
+.popup-content img {
+    max-width: 60%;
+    max-height: 60%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#1abc9cae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+.parent{
+    position: relative;
+}
+.faPlus{
+    font-size: 50px;
+    color: white;
+
+}
+  .parent:hover .overlay {
+    opacity: 1; 
+}
+
+.form-label {
+    display: block;
+    font-size: 15px;
+    color: #1abc9c;
+}
+input:focus {
+   border-color: #1abc9c !important;
+} 
