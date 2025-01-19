@@ -7,9 +7,9 @@ const Protfolio = () => {
   const [popupImage, setPopupImage] = useState(null);
 
   const images = [
-    { id: 1, src: "src/assets/img/poert1.png", alt: "House" },
-    { id: 2, src: "src/assets/img/port2.png", alt: "cake" },
-    { id: 3, src: "src/assets/img/port3.png", alt: "tent" },
+    { id: 1, src: "public/img/poert1.png", alt: "House" },
+    { id: 2, src: "public/img/port2.png", alt: "cake" },
+    { id: 3, src: "public/img/port3.png", alt: "tent" },
   ];
 
   const showImage = (imageSrc) => {

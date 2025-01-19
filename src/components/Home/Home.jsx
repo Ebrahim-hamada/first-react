@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <div className="section d-flex justify-content-center align-items-center text-white vh-100">
         <div className="text-center pt-5">
-            <img src="src/assets/img/avataaars.svg"  className="mb-3 main-photo" alt="image" />
+            <img src="public/img/avataaars.svg"  className="mb-3 main-photo" alt="image" />
             <div className="pt-4">
                 <h1 className="sizing text-uppercase">start Framework</h1>
                 <div className="d-flex align-items-center justify-content-center mb-3">
